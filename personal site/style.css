@@ -1,0 +1,23 @@
+body{
+font-family: 'Lucida Sans';
+text-align: center;
+background-color:lightblue;
+}
+p{
+    font-size: 20px;
+}
+article{
+    font-family: arial;
+    font-size: 20px;
+}
+h1{
+    font-size: 72px;
+}
+h2{
+    font-size: 36px;
+}
+ul{
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+}

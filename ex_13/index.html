@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create User</title>
+    </head>
+    <body>
+        <h1>Create User</h1>
+        <hr>
+        <form method="GET" enctype="application/x-www-form-urlencoded">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="nameid" placeholder="name">
+            <br>
+            <br>
+            <label for="movie title">Please select your favorite movie</label>
+            <br>
+            <select name="option">
+                    <option value="batman_vs_superman">Batman v Superman</option>
+                    <option value="civil_war">Captain America: Civil War</option>
+                    <option value="doctor_strange">Doctor Strange</option>
+                    <option value="suicide_squad">Suicide Squad</option>
+                    <option value="apocalypse">X-Men: Apocalypse</option>
+                    <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option>
+                    <option value="justice_league">Justice League</option>
+                    <option value="logan">Logan</option>
+                    <option value="homecoming">Spider-Man: Homecoming</option>
+                    <option value="wonder_woman" selected="selected">Wonder Woman</option>
+                    <option value="thor_ragnarok">Thor: Ragnarok</option>
+                    <option value="black_panther">Black Panther</option>
+            </select>
+        </form>
+        <br>
+        <form method="GET" enctype="multipart/form-data">
+            <label for="avatar">Upload your photo </label>
+            <input type="file" name="filename" id="nameid" multiple="multiple" />
+            <br>
+            <br>
+            <label for="about you">Bio</label>
+            <br>
+            <textarea name="about" cols="50" rows="10">Please tell something about yourself</textarea>
+            <br>
+            <button value="clear" name="clear form">Clear Form</button>
+            <button value="Create" name="create user">Add New User</button> 
+        </form>
+    </body>
+</html>
